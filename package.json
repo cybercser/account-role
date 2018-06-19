@@ -17,6 +17,7 @@
     "koa-bodyparser": "3.2.0",
     "koa-router": "7.0.0",
     "mysql": "2.11.1",
-    "mz": "2.4.0"
+    "mz": "2.4.0",
+    "urlsafe-base64": "1.0.0"
   }
 }
