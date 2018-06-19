@@ -11,6 +11,7 @@
 * 客户端登录游戏服务器之前，以上次登录的账号http GET查询其角色信息，显示于客户端“选择服务器-已有角色”界面。
 * 游戏中创建角色后后，客户端http POST角色数据到account-role服务器。
 * 游戏中角色数据更新（改名、升级、合服）时，客户端http PUT角色数据到account-role服务器。
+* RESTful API access_token = sha1(config.key+account_id).digest().toString('base64')。
 
 ## 注意事项
 
