@@ -1,6 +1,6 @@
 const APIError = require('../rest').APIError;
 const role = require('../service/role')
-const validateToken = require('./token').validateToken;
+const validateToken = require('../token').validateToken;
 
 module.exports = {
     'GET /api/roles': async (ctx, next) => {

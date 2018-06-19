@@ -1,7 +1,7 @@
-const APIError = require('../rest').APIError;
+const APIError = require('./rest').APIError;
 const crypto = require('crypto');
 const URLSafeBase64 = require('urlsafe-base64');
-const config = require("../config");
+const config = require("./config");
 
 let validateToken = function(token, param) {
     var sha1 = crypto.createHash('sha1');
