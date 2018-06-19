@@ -97,11 +97,11 @@ module.exports = {
             account_id: t.account_id.trim(),
             role_id: t.role_id.trim(),
             role_name: t.role_name.trim(),
-            role_level: t.role_level.trim(),
+            role_level: parseInt(t.role_level.trim()),
             role_avatar: t.role_avatar.trim(),
             server_id: t.server_id.trim(),
             server_name: t.server_name.trim()
         });
         ctx.rest(r);
     }
-}
+};
