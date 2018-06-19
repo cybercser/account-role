@@ -1,5 +1,10 @@
 # 账号-角色服务器
 
+## 运行环境
+
+* MySQL 5.7
+* Node.js 8.11.1
+
 ## 部署步骤
 
 1. root登录MySQL，source init.sql完成数据库初始化。
