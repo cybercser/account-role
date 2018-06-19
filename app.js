@@ -1,14 +1,10 @@
 const Koa = require('koa');
-
 const bodyParser = require('koa-bodyparser');
-
 const controller = require('./controller');
-
 const rest = require('./rest');
-
 const app = new Koa();
 
-const isProduction = process.env.NODE_ENV === 'production';
+// const isProduction = process.env.NODE_ENV === 'production';
 
 // log request URL:
 // app.use(async (ctx, next) => {
