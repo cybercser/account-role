@@ -1,17 +1,20 @@
 {
     "name": "account-role",
     "version": "1.0.0",
+    "repository": {
+        "url": "https://github.com/cybercser/account-role.git"
+    },
     "description": "rockgame accout role http server",
     "main": "app.js",
     "scripts": {
         "test": "node --use_strict app.js"
     },
     "keywords": [
-        "rest",
-        "koa"
+        "RESTful",
+        "koa2"
     ],
     "author": "cybercser",
-    "license": "ISC",
+    "license": "MIT",
     "dependencies": {
         "koa": "2.0.0",
         "koa-bodyparser": "3.2.0",
